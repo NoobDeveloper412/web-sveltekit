@@ -1,0 +1,260 @@
+title: Web3Privacy Now
+description: Advocates worldwide are uniting to make privacy fundamental pillar of the Web3 industry, transforming it into a cultural movement that champions freedom and decentralization.
+header:
+  menu:
+    - name: Home
+      url: /
+    - name: About
+      url: /about
+    - name: Research
+      url: /research
+    - name: Events
+      url: /events
+    #- name: Talks
+    #  url: /talks
+    #- name: Articles
+    #  url: /articles
+    #- name: Leaderboard
+    #  url: /leaderboard
+    #- name: Explorer
+    #  link: explorer
+    - name: News
+      link: news
+    - name: Docs
+      link: docs
+    - name: Membership
+      link: membership
+      url: /membership
+    #- name: Manifesto
+    #  url: /manifesto
+  rightMenu:
+    - twitter
+    - mirror
+    - github
+    - matrix
+footer:
+  menu:
+    - title: Docs
+      ico: docs
+      link: docs
+    - title: "@web3privacy"
+      ico: twitter
+      link: twitter
+    - title: Mirror
+      ico: mirror
+      link: mirror
+    #- title: Telegram
+    #  ico: telegram
+    #  link: telegram
+    - title: GitHub
+      ico: github
+      link: github
+    - title: Matrix
+      ico: matrix
+      link: matrix
+hero:
+  text: |
+    Advocates worldwide are uniting to make privacy fundamental pillar of the Web3 industry, transforming it into a cultural movement that champions freedom and decentralization.
+landing:
+  merch: |
+    To make humans gain control over their privacy by utilizing Web3 stack. So privacy would become a cultural phenomena & active lifestyle.
+  research: |
+    We cultivate a culture of privacy in web3 making data free and public.  Enjoy our researches, infographics, annual reports, tools, newsletter, guidelines & more.
+  mission: |
+    Empower individuals to take control of their digital privacy.
+    <br><br>
+     We envision a world where privacy is a conscious, actively chosen lifestyle, accessible to everyone, everywhere. To turn this into reality, we need to unite our efforts and carve out a path toward a more equitable, decentralized and privacy-respecting digital space.
+  event: |
+    Our aim with gatherings is to build understanding and solidarity between different groups of interests, cultures, states, chains, ecosystems and backgrounds.
+    <br><br>
+      We aggregate web3 & non-tech people, builders, researchers, philosophers, lawyers, policymakers, hacktivists,  key players, local communities and the general public.
+  topics:
+    - Identity
+    - Private Messaging
+    - Regulation vs. Privacy
+    - On-chain Privacy
+    - Privacy wars
+    - Privacy activism
+    - Network states
+    - "R&D: ZK, MPC, THE"
+    - Fullstack Privacy
+    - Lunarpunk vs. Solarpunk
+    - Human rights DAO
+  follow:
+    - name: "@web3privacy"
+      link: twitter
+      text: 800+ followers
+      ico: twitter
+    #- name: "@web3privacy.info"
+    #  link: bluesky
+    #  text: Bluesky
+    #  ico: bluesky
+    - name: Telegram
+      link: telegram
+      text: Telegram group
+      ico: telegram
+    - name: Mirror
+      link: mirror
+      text: Articles, reports, etc.
+      ico: mirror
+    - name: YouTube
+      link: youtube
+      text: Videos
+      ico: youtube
+  coord:
+    - name: Documentation
+      link: docs
+      text: About our initiative
+      ico: docs
+    - name: GitHub
+      link: github
+      text: Source-code repositories
+      ico: github
+    - name: Matrix
+      link: matrix
+      text: Real-time communication
+      ico: matrix
+    - name: Forum
+      link: forum
+      text: Community discussion
+      ico: forum
+  community: |
+    Our aim with gatherings is to bring together key players, different perspectives, skills and visions. We aggregate tech and non tech people, key players and contributors, builders, researchers, philosophers, lawyers, policymakers, activists, local communities and general public.
+organisation:
+  paragraphs:
+    - heading: Events
+      subheading:
+      text:
+        - subtext:
+          items:
+            - "10M annual reach (socials, media, events)"
+            - "Visibility - before, during and after - at our Summits, Meetups & Hackathons (Logo, Merch, Talks, Workshops, Recordings)"
+            - "Free Tickets for team and discounts for your partners"
+            - "Finding right builders for your beta, product to test or develop"
+            - "Speaking and mentoring opportunities"
+            - "Panel curation upon specific needs"
+            - "Bigger outreach and Impact (we bring your brand, your team and developing needs around every event we attend  (ETHDam, ETHRome, ETHBrno, ETHBarcelona, BlackSky…)"
+            - "50 contributors (beyond core team)"
+    - heading: Research
+      subheading: We carry on research delivering essays, reports, infographics, github repos, decks, guidelines
+      text:
+        - subtext: Brand
+          items:
+            - "Raise awareness within specific inputs (category, specs, market)"
+            - "Empower trust (product of choice, Tier1 category service, top of mind)"
+            - "Logo at the end of every report"
+            - "Use report’s results stating you are supporting privacy research (positive image)"
+            - "Underline your role in the market"
+        - subtext: Growth
+          items:
+            - "Engage target audience via using (your and others) experts opinion"
+            - "Additional marketing content from infographics to charts"
+            - "Third party validation of your specific claims (if they are attested)"
+            - "Community building content"
+            - "Priority in our publications and newsletter"
+            - "Tailor made articles based upon specific needs"
+
+    - heading: Explorer
+      subheading: 3in1 a ranking system, database & comprehensive profiling to empower the general public in discerning the privacy levels, security, and reliability of Web3 projects.
+      text:
+        - subtext: Brand
+          items:
+            - "Raise awareness within the category (gain reach)"
+            - "Increase trust by building great profile"
+            - "Improve trust by receiving a third party validation"
+            - "Visibility through benchmarks"
+
+        - subtext: Product
+          items:
+            - "Increase trial or generate leads by building a transparent profile"
+            - "Support your releases"
+    - heading: Financial
+      subheading:
+      text:
+        - subtext:
+          items:
+            - "Tax optimization through donation"
+
+    - heading: Other
+      subheading:
+      text:
+        - subtext:
+          items:
+            - "Organizing educational seminars for your employees, clients, target audience"
+            - "Job listings (web, newsletter, socials…)"
+            - "We transform content you share in conferences into educational material"
+            - "Special insights on market growth and evolution"
+            - "Group for company members"
+            - "Access to special members-only events"
+    - heading: Tiers
+      subheading:
+      text:
+        - subtext:
+          items:
+            - "Membership fee: 7K - 70K EUR / year (depends on tier)"
+            - "Non-profit membership fee: 3K EUR / year"
+
+  table:
+    events:
+      - objective: 11+ Events in different countires
+        details: |
+          1 Congress + 2 Summit + 1 Hackathon + 7 Meetups [IRL outreach: 2000 people]
+        height: 50
+    research:
+      - objective: Privacy in Ethereum
+        details: |
+          Comprehensive mapping of Ethereum-centric privacy services, use cases, product stages, missing areas (use cases), funding landscape, etc.
+        url: /research/ethereum
+        height: 40
+      - objective: Use cases DB update & improve (700 → 1200 projects)
+        details: |
+          The most extensive web3 database of privacy-enhancing solutions
+        url: /research/ethereum
+        height: 60
+      - objective: Privacy Annual Report (150+ pages)
+        details: |
+          Showcase all happenings and achievements of the year (3rd Edition)
+        url: /research/ethereum
+        height: 40
+      - objective: Privacy Awards
+        details: |
+          Annual vote of most popular and interesting privacy projects
+        url: /research/ethereum
+        height: 40
+      - objective: Week in Privacy
+        details: |
+          Newsletter with round-up of the most important privacy news
+        url: /research/ethereum
+        height: 40
+      - objective: Monthly Infographics & Articles
+        details: |
+          Release of useful material for tech & general public
+        url: /research/ethereum
+        height: 40
+    tools:
+      - objective: Privacy Explorer V.2
+        details: |
+          600 services, 5 new categories, improve scoring model
+        url: /research/ethereum
+        height: 40
+      - objective: Privacy Routing tool (V0.1 release)
+        details: |
+          Help users to choose the right service for their transactions
+        url: /research/ethereum
+        height: 40
+    education:
+      - objective: Academy
+        details: |
+          Structured learning paths, playlists, and cohort-based programs 
+
+        height: 40
+      - objective: Hackathon Curation Pack
+        details: |
+          Guidelines to help the builders uderstand actual issues
+        url: /research/ethereum
+        height: 40
+      - objective: Privacy Guidelines for the public
+        details: |
+
+        url: /research/ethereum
+        height: 40
