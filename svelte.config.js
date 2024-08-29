@@ -6,14 +6,9 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: null, // Use '200.html' if you prefer SPA behavior
-			strict: false   // Set to false to allow non-prerenderable routes
-		}),
+		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/web-sveltekit' : '',
+			base: process.env.NODE_ENV !== 'production' ? '/web-sveltekit' : '',
 		},
 		alias: {
 			$components: 'src/lib/components',
@@ -25,9 +20,6 @@ const config = {
 			$styles: 'src/lib/styles',
 			$routes: 'src/routes'
 		},
-		prerender: {
-			entries: [] // This prevents all routes from being prerendered by default
-		}
 	}
 };
 
