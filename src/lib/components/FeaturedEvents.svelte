@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="mt-6">
-		<a href="/events" class="button inverted"><button>Show all events</button></a>
+		<a class="button inverted"><button>Show all events</button></a>
 	</div>
 
 	<div class="mt-16">

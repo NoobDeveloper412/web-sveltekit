@@ -4,7 +4,7 @@
 	  { name: 'Home', url: '/' },
 	  { name: 'About', url: '/about' },
 	  { name: 'Research', url: '/research' },
-	  { name: 'Events', url: '/events' },
+	  { name: 'Events', url: '/' },
 	  { name: 'News', url: '/news' },
 	  { name: 'Docs', url: '/docs' },
 	  { name: 'Membership', url: '/membership' }

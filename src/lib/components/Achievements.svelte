@@ -7,7 +7,7 @@
 
 <div class="middle-pane-big">
 	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w3pn-hp-grid gap-2 mt-2">
-		<div class="bg-events" data-url="/events">
+		<div class="bg-events">
 			<div class="title">Events</div>
 			<div class="numbers">
 				<div>

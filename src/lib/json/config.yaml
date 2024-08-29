@@ -8,8 +8,6 @@ header:
       url: /about
     - name: Research
       url: /research
-    - name: Events
-      url: /events
     #- name: Talks
     #  url: /talks
     #- name: Articles
