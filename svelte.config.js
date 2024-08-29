@@ -8,7 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV !== 'production' ? '/web-sveltekit' : '',
+			base: dev ? '' : process.env.BASE_PATH,
 		},
 		alias: {
 			$components: 'src/lib/components',
