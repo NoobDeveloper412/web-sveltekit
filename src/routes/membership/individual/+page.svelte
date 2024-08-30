@@ -1,0 +1,73 @@
+<script>
+	import core from '$json/core.json';
+</script>
+
+<div class="middle-pane-medium my-10">
+	<div class="flex flex-col gap-8 md:max-w-[1000px]">
+		<div class="flex flex-col gap-2">
+			<h1 class="mb-[0px]">individual membership</h1>
+			<span class=""> Become an integral part of our community! </span>
+		</div>
+		<div class="relative w-full border-b border-gray-950">
+			<div class="flex flex-col gap-[16px] py-[24px] md:p-[24px] z-[10]">
+				<span class="text-white font-bold text-[18px] leading-[1.4rem]"> Benefits </span>
+				<ul class="list-disc ml-[18px] text-white">
+					<li>You are supporting a good thing!</li>
+					<li>Guaranteed access to all our events</li>
+					<li>Swag Privacy Pack</li>
+					<li>Deals from our partners</li>
+					<li>Voting rights in our association</li>
+				</ul>
+				<div class="flex w-full md:justify-between md:flex-row flex-col gap-[8px] md:items-center">
+					<div class="flex flex-col md:flex-row md:items-center gap-4">
+						<span>Price</span>
+						<span class="text-white font-bold text-[18px] leading-[1.4rem]"> €100 / Year </span>
+						<a class="button" href={core.links.individual}><button>BECOME A MEMBER</button></a>
+					</div>
+				</div>
+			</div>
+			<img src="/about/image1.png" alt="" class="absolute right-0 bottom-0 z-[1] md:w-[280px]" />
+		</div>
+		<div class="flex flex-col gap-6">
+			<p class="text-white font-bold text-[18px] leading-[1.4rem]">Membership details</p>
+			<div class="flex flex-col gap-2">
+				<sp class="text-white"> Voting rights in our association </sp>
+				<p class="md:max-w-[1000px]">
+					For members who want to be more involved in the governance of our initiative, we offer the
+					opportunity to participate in the decisions and voting on our plans and other topics. To
+					become a voting member, you must fill out a special form (upcoming) and be approved by the
+					association comittee.
+				</p>
+			</div>
+			<div class="flex flex-col gap-2">
+				<p class="text-white">"Swag Privacy Pack" swag bundle</p>
+				<p class="md:max-w-[1000px]">
+					Collect your Privacy Survival Kit once a year [Pick up at our events]
+				</p>
+			</div>
+			<div class="flex flex-col gap-2">
+				<p class="text-white max-w-[900px]">
+					Opportunity to vote in a special category  at the Privacy Tech Awards
+				</p>
+				<p>
+					We are planning a special category in the Privacy Tech Awards where only our members will
+					be able to vote.
+				</p>
+			</div>
+		</div>
+		<div
+			class="border-2 border-white p-[24px] flex flex-col items-center justify-center text-center gap-6"
+		>
+			<p class="font-bold text-white text-[18px] leading-[1.4rem]">We respect your privacy!</p>
+			<p class="text-white">
+				Membership is essentially anonymous and the list of members is confidential  - we do not
+				require or collect any personal information about our members unless they explicitly declare
+				that they want to be listed publicly.
+			</p>
+			<p class="text-white">
+				We only need one verifiable identifier, which can be an email or cryptocurrency address,
+				which is used to prove your membership.
+			</p>
+		</div>
+	</div>
+</div>

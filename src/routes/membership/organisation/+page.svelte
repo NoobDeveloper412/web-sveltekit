@@ -1,0 +1,144 @@
+<script>
+	// @ts-ignore
+	import config from '$json/config.yaml';
+	import core from '$json/core.json';
+	import OrganisationTableDesktop from '$components/OrganisationTableDesktop.svelte';
+	import OrganisationTableMobile from '$components/OrganisationTableMobile.svelte';
+</script>
+
+<div class="middle-pane-medium my-10">
+	<div class="flex flex-col gap-8">
+		<div class="flex flex-col gap-2">
+			<h1 class="mb-[0px]">organisation membership</h1>
+			<span class="">
+				Rather than one-time deals for single events or projects, we strive for long-term,
+				consistent collaboration to achieve a lasting impact together.
+			</span>
+		</div>
+		<div class="relative w-full border-b border-gray-950">
+			<div class="flex flex-col gap-[16px] py-[24px] md:p-[24px] z-[10]">
+				<span class="text-white font-bold text-[18px] leading-[1.4rem]"> Benefits </span>
+				<ul class="list-disc ml-[18px] text-white">
+					<li>
+						Greater Exposure: ensure visibility and direct networking with key players at all our
+						events [Congresses, Summits, Meetups, and Hackathons].
+					</li>
+					<li>
+						Access to Talent: connect with the right developers, builders and other skilled talent
+						that can develop, test or translate your privacy projects.
+					</li>
+					<li>Targeted Outreach: grow impact through strategic, targeted communications.</li>
+					<li>Thought Leadership: participate in speaking engagements and mentorship roles.</li>
+					<li>
+						Focused Engagement: reach and interact with specific, highly-relevant audiences and
+						stakeholder groups.
+					</li>
+				</ul>
+				<div class="flex w-full md:justify-between md:flex-row flex-col gap-[8px] md:items-center">
+					<div class="flex flex-col md:flex-row md:items-center gap-4">
+						<span>Price</span>
+						<span class="text-white font-bold text-[18px] leading-[1.4rem]">
+							Variable tiers €7000+
+						</span>
+						<a class="button" href={core.links.telegram}><button>CONTACT US</button></a>
+					</div>
+				</div>
+			</div>
+			<img src="/about/image2.png" alt="" class="absolute right-0 bottom-0 z-[-1] md:w-[280px]" />
+		</div>
+		<div class="mb-[12px]">
+			<p class="text-white font-bold text-[18px] leading-[1.4rem]">A Membership means</p>
+			<ul class="list-decimal ml-[18px] text-white">
+				<li>Avoiding wasting time and resources</li>
+				<li>Leveraging our combined ecosystems and activities</li>
+				<li>Driving consistent collaboration to achieve lasting impact</li>
+			</ul>
+		</div>
+		<div>
+			<p class="text-white font-bold text-[18px] leading-[1.4rem]">Our Principles</p>
+			<ul class="list-disc ml-[18px] text-white">
+				<li>
+					We are an open-source & community-driven organization that empowers privacy and freedom.
+				</li>
+				<li>We care about our independence and value collaboration over competition.</li>
+				<li>We don’t work for any company, we collaborate with them.</li>
+			</ul>
+		</div>
+	</div>
+	<div>
+		<img src="/engine.png" alt="" class="w-5/6" />
+	</div>
+	<div class="flex flex-col gap-6">
+		<p class="text-white font-bold text-[18px] leading-[1.4rem]"></p>
+		<div>
+			<p class="text-white font-bold text-[18px] leading-[1.4rem]">
+				Objectives for the years 2024 - 2025
+			</p>
+			<div></div>
+			<p>MAJOR</p>
+			<p class="text-white font-bold text-[18px] leading-[1.6rem]">
+				Become the leading privacy-centric think-tank driving critical ecosystem advocacy.
+			</p>
+		</div>
+		<div>
+			<p>SUB</p>
+			<ul class="list-disc ml-[18px] text-white">
+				<li>
+					<span class="font-bold"> 10 Million annual reach </span>(socials, media, events)
+				</li>
+				<li>
+					<span class="font-bold"> 2500 events visitors </span>(incl 100 privacy leaders)
+				</li>
+				<li>
+					<span class="font-bold"> 100+ contributors within the community </span> (beyond core team)
+				</li>
+			</ul>
+		</div>
+		<div>
+			<p class="text-white font-bold text-[18px]">Our Activities</p>
+		</div>
+		<div>
+			<div class="md:block hidden">
+				<OrganisationTableDesktop />
+			</div>
+			<div class="md:hidden block">
+				<OrganisationTableMobile />
+			</div>
+		</div>
+		<div class="flex flex-col gap-2">
+			<p class="text-white text-[24px] font-bold my-8">Value we can deliver</p>
+
+			{#each config.organisation.paragraphs as item}
+				<div class="mb-16">
+					<p class="font-bold text-white text-[24px] mb-2">
+						{item.heading}
+					</p>
+					{#if item.subheading}
+						<span class="mb-2">{item.subheading}</span>
+					{/if}
+
+					{#each item.text as textItem}
+						{#if item.subtext}
+							<p class="text-white font-bold text-[16px] mt-4">
+								{textItem.subtext}
+							</p>
+						{/if}
+
+						<ul class="list-disc ml-4 text-white">
+							{#each textItem.items as listItem}
+								<li>{listItem}</li>
+							{/each}
+						</ul>
+					{/each}
+				</div>
+			{/each}
+
+			<span class="text-white">
+				For Tier breakdown and details write us today
+				<a href="mailto:web3privacynow@protonmail.com" class="underline">
+					web3privacynow@protonmail.com
+				</a>
+			</span>
+		</div>
+	</div>
+</div>

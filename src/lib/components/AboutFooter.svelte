@@ -1,12 +1,7 @@
 <script>
-	import { onMount } from 'svelte';
-	import { getPersonByGH } from '$utils/core';
-	import PeopleCarousel from './PeopleCarousel.svelte';
-
 	import contributors from '$json/contributors.json';
 	import config from '$json/config.yaml';
-
-	export let core;
+	import core from '$json/core.json';
 
 	function personLink(person) {
 		return person.refs?.twitter
